@@ -111,9 +111,9 @@ img{
  .bottom__area>div a span:hover {
 background: #ddd;
 }
-.main-slider {
+/* .main-slider {
   height: 500px;
-}
+} */
 .home-section {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -147,4 +147,102 @@ background: #ddd;
   margin-right: 30% !important;
   margin-left: 30% !important;
   border-radius: 16px !important;
+}
+.gap-20{
+  margin: 20px 0;
+}
+.gradient_bg1{
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.card__header{
+  display: flex;align-items: center;
+  justify-content: space-between;
+}.card__title {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+ a.card__link {
+  background: linear-gradient(180deg,#f7f8fa,#e7e9ec);
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 0 hsla(0,0%,100%,.3);
+  height: auto;
+  line-height: 1.6;
+  padding: 0 14px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+}
+.product__card {
+  width: 207.167px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 6px;
+}
+.product__card > img {
+  margin: 15px 0;
+}
+.rating__review {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0;
+}
+.price__discount,.topselling_price__discount {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.rating {
+  color: #ffa41c;
+}
+.review {
+  display: inline-block;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #555;
+}
+.priv__price {
+  text-decoration: line-through;
+  color: #aca3a3;
+  font-size: 14px;
+}
+.current__price {
+  font-size: 19px;
+  font-weight: 800;
+  color: #000;
+}
+.discount__rate {
+  background: #e5e4e2;
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: .75em;
+  font-weight: 600;
+  padding: 1px 4px;
+}
+.topselling__card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #d0cfcf;
+  padding: 5px 0;
+}
+.topselling_price__discount {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.topselling_price__discount .current__price {
+  font-size: 19px;
+  font-weight: normal;
+  color: #535252;
 }
