@@ -1,0 +1,150 @@
+.sticky__area{
+ 
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container__fluid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.nav__top{
+  margin: 10px 0;
+}
+.left__area,.right__area{
+  width: 250px;
+}
+.search-input {
+  position: relative;
+}
+.search-input input {
+  font-size: 1.05rem;
+  opacity: 0.50;
+  box-shadow: none;
+  background: #a9caec;
+  padding: 0 60px 0 15px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  line-height: 42px;
+  outline: 0;
+  height: 50px !important;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.search-input>button:hover {
+  background: #ec2028;
+}
+.search-input>button {
+  font-size: 1.2rem;
+  width: 110px;
+}
+.search-input>button {
+  background: #000;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  bottom: 0;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  height: 50 !important;
+}
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.right-area{
+
+}  
+.gap-15 {
+  gap: 15px;
+}
+.right {
+  justify-content: flex-end;
+} 
+.dropdown-toggle::after {
+  display: none !important;
+}
+.bottom__area {
+  border-bottom: 1px solid #a0a0a0;
+  border-top: 1px solid rgba(0,0,0,.07);
+  color: #222;
+  font-size: 1.05em;
+}
+.text__nowrap {
+  white-space: nowrap;
+}
+.bottom__area>div a {
+  font-size: .95em;
+}
+ .bottom__area>div a span {
+  font-size: .9rem;
+  font-weight: 700;
+  padding: 12.5px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+ .bottom__area>div a span:hover {
+background: #ddd;
+}
+.main-slider {
+  height: 500px;
+}
+.home-section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+.carousel-indicators {
+ background: #222 !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image:none !important;
+  color: #ec2028;
+  background-color: #222;
+  font-size: 25px;
+
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  line-height: 1.4;
+}
+.carousel-indicators {
+  margin-right: 30% !important;
+  margin-left: 30% !important;
+  border-radius: 16px !important;
+}
