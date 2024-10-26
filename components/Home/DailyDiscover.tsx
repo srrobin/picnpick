@@ -3,27 +3,20 @@ import ProductCard from './ProductCard';
 const DailyDiscover = () => {
     return (
         <div className='gap-20 '> 
-        <Cardcase cardTitle='Daily Discover' cardBtntext="" cardBtnLink="/">
-        <div className='d-flex gap-3 flex-wrap'>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
-            <ProductCard cardBorder=' 3px solid #000'/>
+        <Cardcase cardTitle='Daily discover'  cardBtnLink="/">
+          <div className='d-flex gap-3'>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
           </div>
         </Cardcase>
         </div>
 
     );
 };
-
 
 
 export default DailyDiscover;

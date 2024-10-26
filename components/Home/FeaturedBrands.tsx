@@ -23,8 +23,8 @@ const FeaturedBrands = () => {
                         <Image 
                          src={b1}
                          alt=''
-                         width={97}
-                         height={97}
+                         width={90}
+                         height={90}
                          objectFit='cover'
                          className='rounded-circle pt-2'
                         />
@@ -34,8 +34,8 @@ const FeaturedBrands = () => {
                         <Image 
                          src={b2}
                          alt=''
-                         width={97}
-                         height={97}
+                         width={90}
+                         height={90}
                          objectFit='cover'
                          className='rounded-circle pt-2'
                         />
@@ -45,8 +45,8 @@ const FeaturedBrands = () => {
                         <Image 
                          src={b3}
                          alt=''
-                         width={97}
-                         height={97}
+                         width={90}
+                         height={90}
                          objectFit='cover'
                         className='rounded-circle pt-2'
                         />
@@ -56,8 +56,8 @@ const FeaturedBrands = () => {
                         <Image 
                          src={b4}
                          alt=''
-                         width={97}
-                         height={97}
+                         width={90}
+                         height={90}
                          objectFit='cover'
                          className='rounded-circle pt-2'
                         />
@@ -67,8 +67,8 @@ const FeaturedBrands = () => {
                         <Image 
                          src={b5}
                          alt=''
-                         width={97}
-                         height={97}
+                         width={90}
+                         height={90}
                          objectFit='cover'
                          className='rounded-circle pt-2'
                         />
@@ -78,8 +78,8 @@ const FeaturedBrands = () => {
                         <Image 
                          src={b6}
                          alt=''
-                         width={97}
-                         height={97}
+                         width={90}
+                         height={90}
                          objectFit='cover'
                          className='rounded-circle pt-2'
                         />

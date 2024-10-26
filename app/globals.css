@@ -187,7 +187,8 @@ background: #ddd;
   border-radius: 6px;
 }
 .product__card > img {
-  margin: 15px 0;
+  margin: 5px 0;
+  padding: 10px;
 }
 .rating__review {
   display: flex;
@@ -228,9 +229,12 @@ background: #ddd;
   font-weight: 600;
   padding: 1px 4px;
 }
+
 .topselling__card {
   display: flex;
   align-items: center;
+  overflow: hidden;
+  width: calc(33.33% - 15px);
   gap: 15px;
   border-bottom: 1px solid #d0cfcf;
   padding: 5px 0;
@@ -249,7 +253,7 @@ background: #ddd;
 }
 
 .single__features {
-  width: 125px;
+  width: 109px;
   text-align: center;
   background: #e5e4e2;
   display: flex;
@@ -259,7 +263,7 @@ background: #ddd;
   border-radius: 10px;
 }
 .brandName{
-  margin-top: 28px;
+  margin-top: 14px;
   font-size: 17px;
   font-weight: 400;
 }
@@ -267,12 +271,7 @@ background: #ddd;
   gap: 17px;
 }
 
-/* .footer__top_area{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} */
+
  .footer__wrapper{
   font-family: "Inter", sans-serif;
  }
@@ -290,15 +289,7 @@ background: #ddd;
   margin: 10px auto;
   padding: 10px 10px 10px;
  }
-/* .footer__area{
-  background: #000;
-  background-image: url('../public/images/footer.svg');
-  background-repeat: repeat;
-  background-size: 28px 28px;
-  color: #c7c7c7;
-  padding-bottom: 60px;
-  padding-top: 30px;
-} */
+
 .footer__title{
   font-size: 16px;
   font-weight: 600;
