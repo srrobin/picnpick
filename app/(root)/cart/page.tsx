@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 // import EmptyCart from "../../public/images/emptyCart.png"
 import { Button } from '@/components/ui/button';
 import { addItems, CartItem, removeItem } from '@/store/cartSlice';
-import { useUser } from '@clerk/nextjs';
+// import { useUser } from '@clerk/nextjs';
 import Link from 'next/link';
 import EmptyCart from "../../../public/images/emptyCart.png";
 
@@ -15,7 +15,7 @@ const Cart = () => {
 
     const addCartHandler = (item:CartItem) => dispatch(addItems(item));
     const removeCartHandler = (id:number) => dispatch(removeItem({id}));
-    const {user} = useUser(); 
+    // const {user} = useUser(); 
 
 
 
@@ -87,7 +87,7 @@ const Cart = () => {
                               <h1 className='text-xl font-bold py-3'>shipping: free</h1>
                               <h1 className='text-xl font-bold py-3'>total: $ {totalPricevat}</h1>
 
-                              {!user && (
+                              {/* {!user && (
                               <Link href="/sign-in"> 
                               <Button className=' w-full bg-yellow-600 text-blue-900 text-xl font-bold'>Sign in to Checkout</Button>
                              </Link>
@@ -96,7 +96,7 @@ const Cart = () => {
                               
                                <Button className=' w-full bg-yellow-600 text-blue-900 text-xl font-bold'>PayMent</Button>
                               
-                              )}
+                              )} */}
                         </div>
                    </div>
                 </div>
