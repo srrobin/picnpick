@@ -246,3 +246,22 @@ background: #ddd;
   font-weight: normal;
   color: #535252;
 }
+
+.single__features {
+  width: 125px;
+  text-align: center;
+  background: #e5e4e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.brandName{
+  margin-top: 28px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.all__features {
+  gap: 17px;
+}
