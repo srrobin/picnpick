@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 // import EmptyCart from "../../public/images/emptyCart.png"
 import { Button } from '@/components/ui/button';
 import { addItems, CartItem, removeItem } from '@/store/cartSlice';
-// import { useUser } from '@clerk/nextjs';
+
 import Link from 'next/link';
 import EmptyCart from "../../../public/images/emptyCart.png";
 
