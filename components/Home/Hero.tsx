@@ -3,7 +3,7 @@ import React from 'react';
 import h1 from "../../public/images/h1.jpg"
 import h2 from "../../public/images/h2.png"
 import h3 from "../../public/images/h3.png"
-import h4 from "../../public/images/h4.jpg"
+import h4 from "../../public/images/s1.png"
 import { GrFormNext } from "react-icons/gr";
 import { GrFormPrevious } from "react-icons/gr";
 
@@ -27,7 +27,7 @@ const Hero = () => {
                     width={600}
                     // sizes="100vw"
                     style={{ width: '100%', height: 'auto' }} // optional
-                    objectFit='contain'
+                    objectFit='cover'
                     className='d-block w-100 rounded '
                     />
                     </div>
@@ -80,7 +80,7 @@ const Hero = () => {
                             width={400}
                             sizes="100vw"
                             style={{ width: '100%', height: 'auto' }} // optional
-                            objectFit='contain '
+                            objectFit='cover '
                             className='rounded'
                             />
                         </div>
@@ -92,7 +92,7 @@ const Hero = () => {
                             width={400}
                             sizes="100vw"
                             style={{ width: '100%', height: 'auto' }} // optional
-                            objectFit='contain'
+                            objectFit='cover'
                             className='rounded'
                             />
                         </div>

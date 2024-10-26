@@ -11,8 +11,8 @@ import ImportBsJS from "@/components/Helper/importBsJS";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "WEB7 | Next js",
-  description: "A Demo E Commerce Peoject",
+  title: "picnpick | best place to find your need",
+  description: "A  e-commerce Peoject",
 };
 
 export default function RootLayout({
